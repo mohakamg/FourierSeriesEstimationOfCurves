@@ -1,0 +1,14 @@
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+body canvas, body input{
+  margin: auto;
+}
