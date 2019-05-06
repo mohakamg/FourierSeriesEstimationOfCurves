@@ -9,6 +9,17 @@ body{
   flex-direction: column;
 }
 
-body canvas, body input{
+body canvas{
   margin: auto;
+}
+
+body input{
+  display: inline;
+  width: 100px;
+}
+
+body input[type="text"]{
+  display: inline;
+  width: 200px;
+  margin-left: 42.5%;
 }

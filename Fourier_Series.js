@@ -6,7 +6,7 @@ let radius = 0;
 let harmonic = 0;
 var n = 2;
 var radio, stepSize = 1;
-let inp;
+let inp, max_hars;
 
 function setup() {
   createCanvas(1024,500);
@@ -16,8 +16,11 @@ function setup() {
   radio.option('Square Wave',2);
   radio.option('Even Harmonics',3);
 
-  inp = createInput('Max Harmonics: ');
+  max_hars = createElement('p', 'Max Harmonics: Enter Below');
+  inp = createInput('');
   inp.input(myInputEvent);
+
+
 
 }
 
